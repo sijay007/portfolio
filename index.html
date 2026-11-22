@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of CJ G. Magbutay - Graduating BSIT Student, Capstone Project Leader, Lead Systems Architect, and Web Developer.">
+  <meta name="keywords" content="CJ Magbutay, CJ G. Magbutay, BSIT, Portfolio, Web Developer, Systems Architect, Capstone Leader, Northwest Samar State University, Calbayog City">
+  <meta name="author" content="CJ G. Magbutay">
+  <title>CJ G. Magbutay | Portfolio &amp; Web Developer</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22bold%22 fill=%22%23f5c518%22>CJ</text></svg>">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-code">&lt;</span>CJ<span class="brand-code">/&gt;</span>
+        <span class="brand-badge"><span class="status-indicator"></span> Available May 2027</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#capstone" class="nav-link"><i class="fa-solid fa-star"></i> Capstone</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-microchip"></i> Skills</a>
+        <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="#certifications" class="nav-link"><i class="fa-solid fa-certificate"></i> Certs</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span>Graduating BSIT Senior &bull; Northwest Samar State University</span>
+          </div>
+
+          <h1 class="hero-title">
+            CJ G. <span class="text-accent">MAGBUTAY</span>
+          </h1>
+
+          <div class="typewriter-box">
+            <span class="typewriter-prefix">I am a </span>
+            <span class="typewriter-text" id="typewriter"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            Graduating Bachelor of Science in Information Technology student with a solid academic and practical foundation in web development, database architecture, systems analysis, and IoT solutions.
+          </p>
+
+          <div class="hero-contact-strip">
+            <span class="contact-pill"><i class="fa-solid fa-location-dot"></i> Calbayog City, Samar, Philippines</span>
+            <a href="mailto:magbutaycj10@gmail.com" class="contact-pill hover-link"><i class="fa-solid fa-envelope"></i> magbutaycj10@gmail.com</a>
+            <span class="contact-pill"><i class="fa-solid fa-phone"></i> +63 926 966 9442</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#capstone" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Featured Capstone
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-comments"></i> Get In Touch
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/sijay007" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cj-magbutay-9ab759451" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:magbutaycj10@gmail.com" class="social-icon" title="Send Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-card-col">
+          <div class="hero-card flat-card">
+            <div class="hero-card-inner">
+              <div class="profile-img-wrap">
+                <img src="assets/profile.jpg" alt="CJ G. Magbutay" class="profile-img" onerror="this.onerror=null; this.src='assets/profile.jpg'">
+                <div class="experience-badge">
+                  <span>BSIT 2027</span>
+                </div>
+              </div>
+
+              <div class="profile-meta">
+                <h3>CJ G. Magbutay</h3>
+                <p class="role-tag">Capstone Leader &amp; Web Developer</p>
+                <p class="school-tag"><i class="fa-solid fa-university"></i> NwSSU College of Computing &amp; Information Sciences</p>
+              </div>
+
+              <div class="terminal-card">
+                <div class="terminal-bar">
+                  <span class="term-title">cj@magbutay-dev:~</span>
+                </div>
+                <div class="terminal-body">
+                  <code><span class="t-prompt">$</span> stack --inspect</code>
+                  <code><span class="t-out">&gt; PHP &bull; MySQL &bull; JavaScript</span></code>
+                  <code><span class="t-out">&gt; Python (Random Forest, ARIMA)</span></code>
+                  <code><span class="t-out">&gt; Arduino Uno &bull; ESP32 &bull; Git</span></code>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Summary / About Me -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-user-check"></i> PROFILE OVERVIEW</span>
+          <h2 class="section-title">Professional <span class="text-accent">Summary</span></h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card flat-card">
+            <p class="summary-lead">
+              Graduating Bachelor of Science in Information Technology student at <strong>Northwest Samar State University</strong> with a solid academic foundation in web development, database architecture, and system integration.
+            </p>
+            <p class="summary-body">
+              Demonstrated technical leadership as <strong>Capstone Project Leader and Lead Systems Architect</strong> for an enterprise automated payroll platform. Seeking an entry-level software engineering or IT position to leverage technical proficiency, analytical problem-solving, and collaborative system design.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="hl-icon"><i class="fa-solid fa-sitemap"></i></div>
+                <div>
+                  <h4>Systems Architecture</h4>
+                  <p>Design of normalized relational schemas, systems analysis and design, and efficient database architectures.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="hl-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div>
+                  <h4>Predictive Analytics</h4>
+                  <p>Implementation of Random Forest Regression and ARIMA models for monthly labor cost forecasting.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="hl-icon"><i class="fa-solid fa-users-gear"></i></div>
+                <div>
+                  <h4>Technical Leadership</h4>
+                  <p>Spearheaded capstone team development, client coordination, on-site pilot testing, and panel defenses.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-info-col">
+            <div class="info-card flat-card">
+              <h3 class="card-title"><i class="fa-solid fa-address-card"></i> Candidate Snapshot</h3>
+              <ul class="info-list">
+                <li>
+                  <span class="info-label">Full Name:</span>
+                  <span class="info-val">CJ G. Magbutay</span>
+                </li>
+                <li>
+                  <span class="info-label">Degree:</span>
+                  <span class="info-val">BS in Information Technology (BSIT)</span>
+                </li>
+                <li>
+                  <span class="info-label">Institution:</span>
+                  <span class="info-val">Northwest Samar State University</span>
+                </li>
+                <li>
+                  <span class="info-label">Expected Graduation:</span>
+                  <span class="info-val badge-year">May 2027</span>
+                </li>
+                <li>
+                  <span class="info-label">Location:</span>
+                  <span class="info-val">Calbayog City, Samar, Philippines</span>
+                </li>
+                <li>
+                  <span class="info-label">Contact:</span>
+                  <span class="info-val"><a href="mailto:magbutaycj10@gmail.com">magbutaycj10@gmail.com</a></span>
+                </li>
+                <li>
+                  <span class="info-label">Phone:</span>
+                  <span class="info-val">+63 926 966 9442</span>
+                </li>
+                <li>
+                  <span class="info-label">LinkedIn:</span>
+                  <span class="info-val"><a href="https://www.linkedin.com/in/cj-magbutay-9ab759451" target="_blank" rel="noopener">cj-magbutay-9ab759451</a></span>
+                </li>
+                <li>
+                  <span class="info-label">GitHub:</span>
+                  <span class="info-val"><a href="https://github.com/sijay007" target="_blank" rel="noopener">github.com/sijay007</a></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Flagship: Capstone Project -->
+    <section class="section capstone-section" id="capstone">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> UNDERGRADUATE THESIS &amp; CAPSTONE PROJECT</span>
+          <h2 class="section-title">Automated Payroll System with CSV Integration &amp; <span class="text-accent">Predictive Budget Forecasting</span></h2>
+          <p class="section-subtitle">Academic Year 2026 – 2027 &bull; Capstone Project Leader, Lead Systems Architect &amp; Web Developer</p>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="capstone-showcase flat-card">
+          <div class="capstone-header-strip">
+            <div class="ch-left">
+              <span class="pill-badge pill-gold"><i class="fa-solid fa-star"></i> Flagship Capstone</span>
+              <span class="pill-badge pill-blue"><i class="fa-solid fa-building"></i> Client: L&amp;N Pharmacy</span>
+              <span class="pill-badge pill-neutral"><i class="fa-solid fa-calendar-check"></i> AY 2026 – 2027</span>
+            </div>
+            <div class="ch-right">
+              <span class="role-badge"><i class="fa-solid fa-user-tie"></i> Capstone Leader &amp; Web Developer</span>
+            </div>
+          </div>
+
+          <div class="capstone-content-body">
+            <div class="detail-block">
+              <h3 class="detail-heading"><i class="fa-solid fa-crosshairs"></i> Project Scope</h3>
+              <p>
+                Architected and engineered an end-to-end automated payroll management platform for <strong>L&amp;N Pharmacy</strong>, multi-role access portals (Admin, Manager, Employee), and compliant statutory deductions (SSS, PhilHealth, and Pag-IBIG).
+              </p>
+            </div>
+
+            <div class="detail-block">
+              <h3 class="detail-heading"><i class="fa-solid fa-microchip"></i> Technical Execution</h3>
+              <p>
+                Engineered a MySQL database and PHP backend; implemented predictive budget forecasting utilizing Random Forest Regression and ARIMA models for monthly labor cost projection.
+              </p>
+              <div class="tech-pills">
+                <span class="tech-pill">PHP</span>
+                <span class="tech-pill">MySQL</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Random Forest</span>
+                <span class="tech-pill">ARIMA Models</span>
+                <span class="tech-pill">CSV Parser</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="detail-block">
+              <h3 class="detail-heading"><i class="fa-solid fa-chart-pie"></i> Validation &amp; Impact</h3>
+              <p>
+                Successfully conducted on-site pilot testing and deployment at <strong>L&amp;N Pharmacy</strong>, achieving high usability ratings and significantly reducing payroll preparation turnaround.
+              </p>
+            </div>
+
+            <div class="capstone-key-metrics">
+              <div class="metric-card flat-card">
+                <span class="metric-val">3</span>
+                <span class="metric-lbl">Role Portals (Admin, Manager, Employee)</span>
+              </div>
+              <div class="metric-card flat-card">
+                <span class="metric-val">MySQL</span>
+                <span class="metric-lbl">Relational Database Engine</span>
+              </div>
+              <div class="metric-card flat-card">
+                <span class="metric-val">CSV</span>
+                <span class="metric-lbl">Single-File Attendance Ingestion</span>
+              </div>
+              <div class="metric-card flat-card">
+                <span class="metric-val">ML</span>
+                <span class="metric-lbl">Random Forest &amp; ARIMA Forecasting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical & Professional Skills -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-screwdriver-wrench"></i> TECH STACK &amp; ABILITIES</span>
+          <h2 class="section-title">Technical &amp; Professional <span class="text-accent">Skills</span></h2>
+          <p class="section-subtitle">Structured according to the updated Magbutay technical curriculum</p>
+          <div class="title-divider"></div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="skills-filter-nav">
+          <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+          <button class="skill-filter-btn" data-filter="systems">Systems &amp; Data</button>
+          <button class="skill-filter-btn" data-filter="web">Web Development</button>
+          <button class="skill-filter-btn" data-filter="hardware">Hardware &amp; IoT</button>
+          <button class="skill-filter-btn" data-filter="core">Core Competencies</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Systems & Data Category -->
+          <div class="skill-category-card flat-card" data-cat="systems">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-database"></i></div>
+              <h3>Systems &amp; Data Management</h3>
+            </div>
+            <p class="cat-desc">Core database management, data modeling, and architectural principles.</p>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">Basic Database Management</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 72%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Data Modeling (ERD)</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 68%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Systems Analysis and Design (SAD)</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 74%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">IT Fundamentals</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 65%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL / SQL Query Operations</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 70%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development Category -->
+          <div class="skill-category-card flat-card" data-cat="web">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <h3>Web Development &amp; Scripting</h3>
+            </div>
+            <p class="cat-desc">Backend development, frontend styling, and predictive analytics.</p>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">PHP / Backend Development</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 70%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 66%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Python (Predictive Algorithms / ARIMA)</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 60%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">HTML5 / Responsive CSS3</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 78%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Bootstrap &amp; Responsive Layouts</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 70%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hardware & IoT Category -->
+          <div class="skill-category-card flat-card" data-cat="hardware">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-microchip"></i></div>
+              <h3>Hardware &amp; IoT Engineering</h3>
+            </div>
+            <p class="cat-desc">Microcontroller circuits, embedded code, and sensor integration.</p>
+            <div class="skill-items-list">
+              <div class="skill-item">
+                <span class="skill-name">Arduino Uno / ESP32 Microcontroller Programming</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 63%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Sensor Integration</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 60%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Rapid Prototyping</span>
+                <div class="skill-progress-bar"><div class="fill" style="width: 65%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Core Competencies Category -->
+          <div class="skill-category-card flat-card" data-cat="core">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-user-gear"></i></div>
+              <h3>Core Professional Competencies</h3>
+            </div>
+            <p class="cat-desc">Professional and interpersonal strengths from the updated resume.</p>
+            <div class="soft-skills-tags">
+              <span class="soft-tag"><i class="fa-solid fa-comments"></i> Communication</span>
+              <span class="soft-tag"><i class="fa-solid fa-people-group"></i> Teamwork</span>
+              <span class="soft-tag"><i class="fa-solid fa-lightbulb"></i> Problem-Solving</span>
+              <span class="soft-tag"><i class="fa-solid fa-clock"></i> Time Management</span>
+              <span class="soft-tag"><i class="fa-solid fa-shuffle"></i> Adaptability</span>
+              <span class="soft-tag"><i class="fa-solid fa-magnifying-glass"></i> Attention to Detail</span>
+              <span class="soft-tag"><i class="fa-solid fa-book-open-reader"></i> Willingness to Learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> ACADEMIC PATH</span>
+          <h2 class="section-title">Educational <span class="text-accent">Background</span></h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="education-card flat-card">
+          <div class="edu-top">
+            <div class="edu-institution">
+              <div class="edu-logo-box"><i class="fa-solid fa-university"></i></div>
+              <div>
+                <h3 class="univ-name">Northwest Samar State University (NwSSU)</h3>
+                <p class="degree-name">Bachelor of Science in Information Technology (BSIT)</p>
+                <p class="loc-text"><i class="fa-solid fa-location-dot"></i> Calbayog City, Samar, Philippines</p>
+              </div>
+            </div>
+            <div class="edu-badge-box">
+              <span class="grad-badge"><i class="fa-solid fa-calendar-check"></i> Expected Graduation: May 2027</span>
+              <span class="status-badge"><i class="fa-solid fa-circle-check"></i> 4th Year Senior Standing</span>
+            </div>
+          </div>
+
+          <div class="edu-details-grid">
+            <div class="edu-detail-col">
+              <h4><i class="fa-solid fa-award"></i> Key Achievements</h4>
+              <p class="achievement-desc">
+                Served as <strong>Capstone Project Leader and Programmer</strong> for the <em>Automated Payroll System with CSV Integration and Predictive Budget Forecasting</em>.
+              </p>
+            </div>
+
+            <div class="edu-detail-col">
+              <h4><i class="fa-solid fa-book-bookmark"></i> Relevant Coursework</h4>
+              <div class="coursework-tags">
+                <span class="course-tag">Database Management Systems</span>
+                <span class="course-tag">Web Development</span>
+                <span class="course-tag">Systems Analysis &amp; Design</span>
+                <span class="course-tag">Data Structures &amp; Algorithms</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Seminars -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-certificate"></i> CREDENTIALS &amp; SEMINARS</span>
+          <h2 class="section-title">Certifications &amp; <span class="text-accent">Seminars</span></h2>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="certs-grid">
+          <div class="cert-card flat-card">
+            <div class="cert-icon-wrap">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <div class="cert-info">
+              <span class="cert-date"><i class="fa-solid fa-calendar-day"></i> February 18, 2026</span>
+              <h3 class="cert-title">Research Seminar: Foundation of Capstone Projects</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> Northwest Samar State University &bull; CCIS</p>
+              <p class="cert-desc">Research methodology, project objective formulation, scope definition, and compliance standards for computing capstone systems.</p>
+            </div>
+          </div>
+
+          <div class="cert-card flat-card">
+            <div class="cert-icon-wrap">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="cert-info">
+              <span class="cert-date"><i class="fa-solid fa-calendar-day"></i> September 21–22, 2026</span>
+              <h3 class="cert-title">OWN IT: CCIS Intellectual Property Bootcamp</h3>
+              <p class="cert-issuer"><i class="fa-solid fa-building-columns"></i> College of Computing and Information Sciences</p>
+              <p class="cert-desc">Software copyright, intellectual property rights (IPR) management, code originality, and patent protection for undergraduate software projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-envelope-open-text"></i> GET IN TOUCH</span>
+          <h2 class="section-title">Contact &amp; <span class="text-accent">Collaboration</span></h2>
+          <p class="section-subtitle">Interested in discussing employment, internship, or software projects?</p>
+          <div class="title-divider"></div>
+        </div>
+
+        <div class="contact-channels-grid">
+          <a href="mailto:magbutaycj10@gmail.com" class="channel-item flat-card">
+            <div class="ch-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="ch-text">
+              <span class="ch-label">Email</span>
+              <span class="ch-value">magbutaycj10@gmail.com</span>
+            </div>
+          </a>
+
+          <a href="tel:+639269669442" class="channel-item flat-card">
+            <div class="ch-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="ch-text">
+              <span class="ch-label">Phone</span>
+              <span class="ch-value">+63 926 966 9442</span>
+            </div>
+          </a>
+
+          <div class="channel-item flat-card">
+            <div class="ch-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="ch-text">
+              <span class="ch-label">Location</span>
+              <span class="ch-value">Calbayog City, Samar, Philippines</span>
+            </div>
+          </div>
+
+          <a href="https://www.linkedin.com/in/cj-magbutay-9ab759451" target="_blank" rel="noopener noreferrer" class="channel-item flat-card">
+            <div class="ch-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="ch-text">
+              <span class="ch-label">LinkedIn Profile</span>
+              <span class="ch-value">in/cj-magbutay-9ab759451</span>
+            </div>
+          </a>
+
+          <a href="https://github.com/sijay007" target="_blank" rel="noopener noreferrer" class="channel-item flat-card">
+            <div class="ch-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="ch-text">
+              <span class="ch-label">GitHub Repository</span>
+              <span class="ch-value">github.com/sijay007</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="footer-brand">&lt;CJ G. MAGBUTAY /&gt;</a>
+        <p>Graduating BSIT Student &bull; Systems Architect &bull; Web Developer</p>
+        <p class="pht-clock"><i class="fa-solid fa-clock"></i> Philippine Standard Time (PHT): <span id="livePhtClock">--:--:--</span></p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#capstone">Capstone</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> CJ G. Magbutay. Designed in Minimalist Flat Design.</p>
+        <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+          <i class="fa-solid fa-chevron-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
